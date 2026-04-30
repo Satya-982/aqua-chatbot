@@ -1,0 +1,89 @@
+# 🦐 Aqua Chatbot — AI-Powered Aquaculture Assistant
+
+An intelligent, **bilingual (English & Telugu)** chatbot built to assist shrimp farmers and aquaculture professionals with real-time guidance on water quality, disease detection, feeding, and harvest management.
+
+---
+
+## 🌟 Features
+
+- 💬 **Bilingual Support** — Responds in both English and Telugu
+- 🔬 **Disease Identification** — Detects disease-related queries and gives actionable advice
+- 💧 **Water Quality Guidance** — Answers questions about pH, oxygen, and ammonia levels
+- 🍤 **Feeding Recommendations** — Suggests feeding adjustments based on shrimp growth
+- 🌾 **Harvest Guidance** — Advises on optimal harvest timing
+- 🤖 **Offline AI Fallback** — Rule-based AI response when specific answers aren't found
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Backend | Python, Flask |
+| Frontend | HTML, CSS |
+| AI Logic | Rule-based NLP + keyword matching |
+| Language Support | English, Telugu |
+
+---
+
+## 📁 Project Structure
+
+```
+aqua-chatbot/
+│
+├── app.py              # Flask app + AI response logic
+├── data.py             # QA knowledge base (bilingual)
+├── requirements.txt    # Dependencies
+├── static/             # CSS and static assets
+└── templates/
+    └── index.html      # Chat UI
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Satya-982/aqua-chatbot.git
+cd aqua-chatbot
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+python app.py
+```
+
+Open your browser at `http://localhost:5000`
+
+---
+
+## 💡 Use Case
+
+Designed for **rural aquaculture farmers** in Andhra Pradesh and Telangana who need quick, accessible guidance in their native language. Covers common shrimp farming challenges without needing internet-dependent AI APIs.
+
+---
+
+## 📸 Demo
+
+> *(Add a screenshot of your chat UI here)*
+
+---
+
+## 🙋 Author
+
+**Satya Marrivada**  
+M.Tech AIML | [GitHub](https://github.com/Satya-982)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
